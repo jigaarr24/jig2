@@ -69,7 +69,7 @@ def random_v2ray_Or_Not(fle_num1, url1 ='', rnd1= True):
     base64_string = base64.standard_b64encode(str1.encode()).decode()
     data_up1 = {'text': str(base64_string), 'API': 'IPA1', 'File': fle_num1}
     res_jig1 = requests.post('https://jigaarr24.pythonanywhere.com/xprr', data=data_up1)
-    return 'https://jigaarr24.pythonanywhere.com/xprr?File={}'.format(fle_num1)
+    return 'https://jigaarr24.pythonanywhere.com/xprr?File={}'.format(fle_num1) 
 
   except Exception as ex:
       return str(ex)
