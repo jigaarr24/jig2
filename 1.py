@@ -1,3 +1,5 @@
+# https://raw.githubusercontent.com/jigaarr24/jig2/main/1.py
+
 import base64
 import requests, time, re
 from urllib.parse import quote, urljoin, unquote, quote_plus
@@ -69,7 +71,7 @@ def random_v2ray_Or_Not(fle_num1, url1 ='', rnd1= True):
     base64_string = base64.standard_b64encode(str1.encode()).decode()
     data_up1 = {'text': str(base64_string), 'API': 'IPA1', 'File': fle_num1}
     res_jig1 = requests.post('https://jigaarr24.pythonanywhere.com/xprr', data=data_up1)
-    return 'https://jigaarr24.pythonanywhere.com/xprr?File={}'.format(fle_num1) 
+    return 'https://jigaarr24.pythonanywhere.com/xprr?File={}'.format(fle_num1)
 
   except Exception as ex:
       return str(ex)
@@ -86,15 +88,55 @@ def vpn_fail_servers(fle_num1):
 
 while True:
   try:
-    random_v2ray_Or_Not(26)
+    prx3('prrofile_purple', 1)
     time.sleep(3)
-    random_v2ray_Or_Not(27)
+    prx3('v2ray_ng', 2)
     time.sleep(3)
-    random_v2ray_Or_Not(28)
+    prx3('customv2ray', 3)
     time.sleep(3)
-    random_v2ray_Or_Not(29)
+    prx3('nofiltering2', 4)
     time.sleep(3)
-    random_v2ray_Or_Not(30)
+    prx3('Beiten', 5)
+    time.sleep(3)
+    prx3('v2Ray1_ng', 6)
+    time.sleep(3)
+    prx3('antimeli', 7)
+    time.sleep(3)
+    prx3('configv2rayng', 8)
+    time.sleep(3)
+    prx3('vpn_ioss', 9)
+    time.sleep(3)
+    prx3('pewezavpn', 10)
+    time.sleep(3)
+    prx3('Tehranfreevpn', 11)
+    time.sleep(3)
+    prx3('freeirnet', 12)
+    time.sleep(3)
+    prx3('maznet', 13)
+    time.sleep(3)
+    prx3('ho3ino00', 14)
+    time.sleep(3)
+    vpn_fail_servers(15)
+    time.sleep(3)
+    random_v2ray_Or_Not(16, 'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/ss.txt', False)
+    time.sleep(3)
+    random_v2ray_Or_Not(17, 'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/ssr.txt', False)
+    time.sleep(3)
+    random_v2ray_Or_Not(18, 'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/trojan.txt', False)
+    time.sleep(3)    
+    random_v2ray_Or_Not(19, 'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/vmess.txt', False)
+    time.sleep(3)
+    random_v2ray_Or_Not(20, 'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity.txt', False)
+    time.sleep(3)
+    random_v2ray_Or_Not(21, 'https://new1.jigaarr24.workers.dev/sub/', False)
+    time.sleep(3)
+    random_v2ray_Or_Not(22)
+    time.sleep(3)
+    random_v2ray_Or_Not(23)
+    time.sleep(3)
+    random_v2ray_Or_Not(24)
+    time.sleep(3)
+    random_v2ray_Or_Not(25)
     
     
     # break
