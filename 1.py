@@ -1,4 +1,5 @@
 # https://raw.githubusercontent.com/jigaarr24/jig2/main/1.py
+# Xshellz2 Three Hours Cycle
 
 import base64
 import requests, time, re
